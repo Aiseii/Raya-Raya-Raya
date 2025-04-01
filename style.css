@@ -1,10 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background: url('https://source.unsplash.com/1600x900/?eid') no-repeat center center/cover;
-    color: white;
-    padding: 50px;
-    overflow: hidden;
+    background-image: url('background.jpg'); 
+    background-size: cover; /* Make the image cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    height: 100vh; /* Ensure it covers the full viewport */
+}
+
+.text-box {
+    background: rgba(0, 0, 0, 0.6); /* Dark transparent background */
+    color: white; /* White text */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
 }
 
 /* Container */
