@@ -20,7 +20,7 @@ function triggerFireworks() {
 }
 
 // Play Background Music
-function playMusic() {
-    document.getElementById("bg-music").play();
-}
+document.addEventListener("DOMContentLoaded", function () {
+    const bgMusic = document.getElementById("bg-music");
+    bgMusic.volume = 0.5; // Set volume to 50%
 });
