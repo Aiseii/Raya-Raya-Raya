@@ -11,6 +11,9 @@ body {
     color: white; /* White text */
     padding: 20px;
     border-radius: 10px; /* Rounded corners */
+    display: inline-block;
+    animation: slide-in 1s ease-in-out;
+
 }
 
 /* Container */
