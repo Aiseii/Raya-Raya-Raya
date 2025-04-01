@@ -4,6 +4,9 @@ body {
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent repeating */
     height: 100vh; /* Ensure it covers the full viewport */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .text-box {
