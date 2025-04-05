@@ -19,15 +19,6 @@ body {
 
 }
 
-/* Container */
-/* .container {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    border-radius: 10px;
-    display: inline-block;
-    animation: slide-in 1s ease-in-out;
-} */
-
 /* Animations */
 .fade-in {
     opacity: 0;
